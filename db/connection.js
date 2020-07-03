@@ -3,10 +3,10 @@ const mysql = require("mysql");
 
 // Creating connection to MySQL employee db
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "root",
-    database: "employee_systemDB"
+  host: "localhost",
+  user: "root",
+  password: "root",
+  database: "employee_systemDB",
 });
 
 connection.connect();
