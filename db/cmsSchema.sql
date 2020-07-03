@@ -18,7 +18,7 @@ CREATE TABLE role (
     PRIMARY KEY (id)
 )
 
-CREATE TABLE employee (
+CREATE TABLE employees (
     id INT NOT NULL AUTO_INCREMENT,
     role_id INT NOT NULL, 
     first_name VARCHAR (30),
